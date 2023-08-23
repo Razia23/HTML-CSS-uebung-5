@@ -1,0 +1,22 @@
+/*********/
+@media screen and (max-width:799px){
+    body{
+        background-color: lemonchiffon;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    main .filter2{
+        grid-column-start: 1;
+    grid-column-end: span 2;
+ }
+ main .filter3{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+ }
+
+}

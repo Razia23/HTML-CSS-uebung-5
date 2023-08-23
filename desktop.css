@@ -1,0 +1,45 @@
+/*********/
+@media screen and (min-width:800px) {
+    main {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 200px 200px 200px 400px;
+    }
+
+    main .conic {
+        grid-column-start: 3;
+     }
+
+    /********/
+    main .radial {
+        grid-column-start: 2;
+       
+    }
+
+    main img {
+        border-radius: 20px;
+    }
+
+    main .filter {
+        box-shadow: 0px 0px 20px darkcyan;
+        grid-column-start: 1;
+    }
+
+    main .filter2 {
+        box-shadow: 0px 0px 20px rgb(139, 67, 0);
+        grid-column-end: span 2;
+    }
+
+    main .filter3 {
+        box-shadow: 0px 0px 20px rgb(100, 0, 139);
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+    }
+
+    main .filter4 {
+        grid-column-start: 3;
+        grid-row-end: span 2;
+    }
+}

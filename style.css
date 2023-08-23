@@ -1,0 +1,80 @@
+/**********/
+body {
+    background-color:rgb(229, 255, 127);
+    background-size: cover;
+    border: solid yellow 2px;
+}
+
+/*********/
+main div {
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0px 0px 20px rgb(179, 250, 86);
+    min-width: 150px;
+    min-height: 150px;
+    border-radius: 30px;
+    background-color: rgba(143, 188, 143, 0.481);
+}
+
+main img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    align-items: center;
+}
+/***********/
+main .linear {
+background-image: linear-gradient(to left, blue, skyblue, yellow, white, green);
+background-position: center center;
+}
+/**********/
+main .conic {
+    background-image: conic-gradient(rgba(254, 183, 183, 0.84), rgba(126, 141, 126, 0.889), rgba(248, 248, 109, 0.916), white, violet, rgba(0, 128, 0, 0.889), rgba(86, 203, 250, 0.889));
+    background-position: center center;
+}
+/********/
+main .radial {
+    background-image: radial-gradient(circle at center, gray, pink, red, white, lightgray);
+    background-position: center center;
+}
+
+main .filter {
+    filter: brightness(1) blur(0.5);
+    box-shadow: 0px 0px 20px darkcyan;
+    transition: 0.5s;
+    border: 2px groove black;
+}
+
+main .filter:hover {
+    border: 6px solid crimson;
+}
+
+main .filter2 {
+    filter: brightness(0.7);
+    box-shadow: 0px 0px 20px rgb(0, 7, 139);
+}
+main .filter2 img:hover{
+    width: 200px;
+    transition: 0.5s;
+    filter:blur(2);
+}
+main .filter3 {
+    filter: grayscale(4);
+    box-shadow: 0px 0px 20px rgb(100, 0, 139);
+    transition: 0.5s;
+}
+main .filter3:hover{
+    border: solid 1px gray;
+}
+
+main .filter4 {
+    filter: brightness(2);
+    transition: 1.2s;
+}
+main .filter4:hover{
+    width: 300px;
+    border-radius: 50px;
+
+    filter: brightness(1) blur(0);
+      
+}
